@@ -28,34 +28,33 @@
             <listPerson>
                 <person xml:id="PID_entity_record">
                     <idno type="Authority_name" cert="high">http://viaf.org/viaf/59931033</idno>
-                    <persName type="standard"><name>Cary, Mary Ann Shadd </name>
+                    <persName type="standard"><name>Cary, Mary Ann Shadd</name>
                     </persName>
                     <persName type="prefered" xml:lang="ENG">
                         <name type="forename"><persName type="standard"><name>Mary Ann</name></persName></name>
                         <name type="middlename">Shadd</name>
                         <name type="surname">Cary</name>
-                        <genName/> abolitionist </persName><persName type="variant" role="variant_name_type" xml:lang="ENG"/><birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="2000-10-30">D.O.B </date>, <placeName/>
+                        <birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="1823-10-09">October 9, 1823</date>, <placeName>Wilmington, Delaware</placeName>
                         <note/>
                     </birth>
                     <death>
-                        <date cert="high" notBefore="2017-07-21">?
-                            <!--format for living persons; for dead persons, structure the same as for D.O.B.--></date>,
+                        <date cert="high" when="1893-06-5">?
+                            June 5, 1893</date>,
                         <placeName>Place of death</placeName>
                         <note/>
                     </death>
                     <floruit>
-                        <date/>
+                        <date from="1848" to="1893"/>
                         <note/>
                     </floruit>
-                    <sex source="http://sparql.cwrc.ca/ontology/cwrc.html#Gender" value="GenderQueer" cert="high"/>
+                    <sex source="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman" value="woman" cert="high"/>
+                        <!-- CC: I am a bit confused by CWRC's use of @source here, but I am going ot go with it-->
                     <trait type="factuality" cert="high">
-                        <ab>real/fictional
-                            <!--form should contain a dropdown with three options: real, fictional, both, unknown--></ab>
+                        <ab>real</ab>
                     </trait>
-                    <nationality cert="high" ref="http://sparql.cwrc.ca/ontology/cwrc.html">Nationality
-                        (zero or more)</nationality>
-                    <occupation cert="high">Ocupation (zero or more)Use Orlando picklist
-                        values</occupation>
+                    <nationality cert="high">American</nationality>
+                        <nationality cert="high">Canadian</nationality>
+                    <occupation cert="high" source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist">Abolitionist</occupation>
                     <affiliation cert="high">User input</affiliation>
                     <note type="general" xml:lang="ENG"> This is a general note about the person. </note>
                     <note type="project-specific" xml:lang="ENG">
