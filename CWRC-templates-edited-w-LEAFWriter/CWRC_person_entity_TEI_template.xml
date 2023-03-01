@@ -34,24 +34,7 @@
                         <name type="forename"><persName type="standard"><name>Mary Ann</name></persName></name>
                         <name type="middlename">Shadd</name>
                         <name type="surname">Cary</name>
-                        <genName/> abolitionist
-                    </persName>
-                    <persName type="variant" role="variant_name_type" xml:lang="ENG">
-                        <name type="forename">Forename</name>
-                        <name type="middlename">Middle Name</name>
-                        <name type="surname">Last Name 2</name>
-                        <genName>(e.g. the IIIrd, senior, junior, etc.)</genName>
-                        <roleName>offical title or rank</roleName>
-                        <note>
-                            <label>Named prefered by: </label>
-                            <desc>
-                                <orgName ref="URI">Name of the project that uses the variant name</orgName>
-                            </desc>
-                        </note>
-                    </persName>
-                    <birth>
-                        <date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="2000-10-30">D.O.B </date>, <placeName>Place of
-                            birth</placeName>
+                        <genName/> abolitionist </persName><persName type="variant" role="variant_name_type" xml:lang="ENG"/><birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="2000-10-30">D.O.B </date>, <placeName/>
                         <note/>
                     </birth>
                     <death>
