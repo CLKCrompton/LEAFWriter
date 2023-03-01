@@ -28,11 +28,10 @@
             <listPerson>
                 <person xml:id="PID_entity_record">
                     <idno type="Authority_name" cert="high">http://viaf.org/viaf/59931033</idno>
-                    <persName type="standard">
-                        <name>Last Name, First Name </name>
+                    <persName type="standard"><name>Cary, Mary Ann Shadd </name>
                     </persName>
                     <persName type="prefered" xml:lang="ENG">
-                        <name type="forename">Forename</name>
+                        <name type="forename">For</name>
                         <name type="middlename">Middle Name</name>
                         <name type="surname">Last Name</name>
                         <genName>(e.g. the IIIrd, senior, junior, etc.)</genName>
