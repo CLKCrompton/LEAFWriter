@@ -31,11 +31,10 @@
                     <persName type="standard"><name>Cary, Mary Ann Shadd </name>
                     </persName>
                     <persName type="prefered" xml:lang="ENG">
-                        <name type="forename">For</name>
-                        <name type="middlename">Middle Name</name>
-                        <name type="surname">Last Name</name>
-                        <genName>(e.g. the IIIrd, senior, junior, etc.)</genName>
-                        <roleName>offical title or rank</roleName>
+                        <name type="forename"><persName type="standard"><name>Mary Ann</name></persName></name>
+                        <name type="middlename">Shadd</name>
+                        <name type="surname">Cary</name>
+                        <genName/> abolitionist
                     </persName>
                     <persName type="variant" role="variant_name_type" xml:lang="ENG">
                         <name type="forename">Forename</name>
