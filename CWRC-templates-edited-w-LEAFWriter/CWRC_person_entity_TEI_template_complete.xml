@@ -374,7 +374,6 @@
 	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307090901221",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-07T14:09:01.221Z",
-	"dcterms:modified": "2023-03-07T14:09:01.221Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/CLKCrompton",
 		"@type": [
@@ -400,20 +399,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307090901221#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/listPerson/person/persName/name"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/listPerson/person/persName"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 6,
-				"oa:end": 20
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPerson/person/persName/name/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -465,7 +452,6 @@
 	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?date_annotation_20230307091113000",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-07T14:11:13.000Z",
-	"dcterms:modified": "2023-03-07T14:11:13.000Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/CLKCrompton",
 		"@type": [
@@ -491,25 +477,13 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?date_annotation_20230307091113000#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/listPerson/person/birth/date"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/listPerson/person/birth"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 0,
-				"oa:end": 15
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPerson/person/birth/date/date"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "xsd:date",
-		"rdf:value": "1823-10-09"
+		"rdf:value": "undefined/undefined"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -683,14 +657,14 @@
             <listPerson>
                 <person xml:id="PID_entity_record">
                     <idno type="Authority_name" cert="high">http://viaf.org/viaf/59931033</idno>
-                    <persName type="standard"><name>Cary, Mary Ann Shadd</name>
+                    <persName type="standard"><name>Cary, <persName>Mary Ann Shadd</persName></name>
                     </persName>
                     <persName type="prefered" xml:lang="ENG">
                         <name type="forename"><persName type="standard"><name>Mary Ann</name></persName></name>
                         <name type="middlename">Shadd</name>
                         <name type="surname">Cary</name>
                     </persName>
-                        <birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="1823-10-09">October 9, 1823</date>, <placeName>Wilmington, Delaware</placeName>
+                        <birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="1823-10-09"><date>October 9, 1823</date></date>, <placeName>Wilmington, Delaware</placeName>
                         <note/>
                     </birth>
                     <death>
@@ -723,7 +697,7 @@
                     </note>
                     <listBibl>
                         <head>Sources:</head>
-                        <bibl><title/><ref source="WorldCat" target="https://www.worldcat.org/title/949872497"/>Carey, Mary Ann Shadd. A Plea for Emigration; or, Notes of Canada West. Edited by <persName key="Antwi, Phanuel‏" ref="http://viaf.org/viaf/595146936821313782712/" cert="high" type="real">Phanuel Antwi</persName>, Broadview P, 2016.
+                        <bibl><title/><ref source="WorldCat" target="https://www.worldcat.org/title/949872497"/>Carey, Mary Ann Shadd. A Plea for Emigration; or, Notes of Canada West. Edited by <persName key="Antwi, Phanuel" ref="http://viaf.org/viaf/595146936821313782712/" cert="high" type="real">Phanuel Antwi</persName>, Broadview P, 2016.
                         </bibl>
                     </listBibl>
                     <respons locus="value">
