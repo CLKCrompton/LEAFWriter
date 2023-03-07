@@ -34,11 +34,12 @@
                         <name type="forename"><persName type="standard"><name>Mary Ann</name></persName></name>
                         <name type="middlename">Shadd</name>
                         <name type="surname">Cary</name>
+                    </persName>
                         <birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="1823-10-09">October 9, 1823</date>, <placeName>Wilmington, Delaware</placeName>
                         <note/>
                     </birth>
                     <death>
-                        <date cert="high" when="1893-06-5">?
+                        <date cert="high" when="1893-06-05">?
                             June 5, 1893</date>,
                         <placeName>Place of death</placeName>
                         <note/>
@@ -61,24 +62,25 @@
                         This is a project-specific note about the person.
                         <respons locus="value">
                             <desc>
-                                <orgName ref="URI">Project (e.g.CWRC, REED, Orlando)</orgName>
+                                <orgName ref="https://app.xtriples.lincsproject.ca/exist/apps/xtriples/index.html">XTriples test project</orgName>
                             </desc>
                         </respons>
                     </note>
                     <listBibl>
                         <head>Sources:</head>
-                        <bibl><title/><ref source="WorldCat" target="Resource_URI"/></bibl>
+                        <bibl><title/><ref source="WorldCat" target="https://www.worldcat.org/title/949872497"/>Cary, Mary Ann Shadd. A Plea for Emigration; or, Notes of Canada West. Edited by Phanuel Antwi, Broadview P, 2016.
+                        </bibl>
                     </listBibl>
                     <respons locus="value">
                         <desc> 
-                            <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-06"/>
-                            <persName ref="URI-to-user-record">User real name</persName>
+                            <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2023-02-11"/>
+                            <persName ref="https://orcid.org/0000-0001-6611-3663">Constance Crompton</persName>
                         </desc>
                     </respons>
                     <respons locus="value">
                         <desc> 
-                            <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-07"/>
-                            <persName ref="URI-to-user-record">User real name</persName>
+                            <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2023-02-11"/>
+                            <persName ref="https://orcid.org/0000-0001-6611-3663">Constance Crompton</persName>
                         </desc>
                     </respons>
                 </person>
