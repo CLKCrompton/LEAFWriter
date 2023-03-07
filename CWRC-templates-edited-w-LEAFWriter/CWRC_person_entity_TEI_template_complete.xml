@@ -923,7 +923,7 @@
                         <nationality cert="high">Canadian</nationality>
                     <occupation cert="high" source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist">Abolitionist</occupation>
                     <affiliation cert="high"/>
-                    <note type="general" xml:lang="ENG"> Shadd was the first Black female newspaper publisher in Canada. She founded and edited The Provincial Freeman; established a racially integrated school for Black refugees in Windsor, Canada West; in 1994, was designated a Person of National Historic Significance in Canada </note>
+                    <note type="general" xml:lang="ENG"> Shadd was the first Black female newspaper publisher in Canada. She founded and edited The Provincial Freeman and established a racially integrated school for Black refugees in Windsor, Canada West.  In 1994, she was designated a Person of National Historic Significance in Canada </note>
                     <note type="project-specific" xml:lang="ENG">
                         This is a project-specific note about the person.
                         <respons locus="value">
