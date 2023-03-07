@@ -922,7 +922,7 @@
                     <nationality cert="high">American</nationality>
                         <nationality cert="high">Canadian</nationality>
                     <occupation cert="high" source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist">Abolitionist</occupation>
-                    <affiliation cert="high">User input</affiliation>
+                    <affiliation cert="high"/>
                     <note type="general" xml:lang="ENG"> This is a general note about the person. </note>
                     <note type="project-specific" xml:lang="ENG">
                         This is a project-specific note about the person.
