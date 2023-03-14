@@ -30,13 +30,13 @@
                 <org xml:id="PID_entity_record">
                     <idno type="Authority_name" cert="high"/>
                     <orgName type="standard">
-                        <name>CWRC Organization Entity, Test</name>
+                        <name>Pink Triangle Press</name>
                     </orgName>
                     <orgName type="prefered" xml:lang="ENG">
-                        <name type="full">Test CWRC Organization Entity</name>
+                        <name type="full">Pink Triangle Press</name>
                     </orgName>
                     <orgName type="variant" xml:lang="ENG">
-                        <name type="acronym">TOE CWRC</name>
+                        <name type="acronym">PTP</name>
                         <note>
                             <label>Named preferred by: </label>
                             <desc>
@@ -44,43 +44,38 @@
                             </desc>
                         </note>
                     </orgName>
-                    <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="2017-01" cert="high" >
-                        <desc><placeName ref="URI">Place Name</placeName><desc>Note about the establishment</desc>
+                    <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="1971" cert="high" >
+                        <desc><placeName ref="URI">Toronto</placeName><desc>PTP dates from the start of the The Body Politic, although Pink Triangle Press was not incorporated under that name unil 1978</desc>
                         </desc>
                     </event>
                     <trait type="factuality" cert="high" ref="Ontology">
-                        <ab>real/fictional
-                            <!--form should contain a dropdown with three options: real, fictional, both, unknown--></ab>
+                        <ab>real</ab>
                     </trait>
                     <trait type="orgType" cert="high" ref="OntologyURL">
                         <ab>Org Type</ab>
                     </trait>
-                    <note type="general" xml:lang="ENG"> This is a general note about the organization. </note>
+                    <note type="general" xml:lang="ENG"> PinkType was a PTP-backed type setting service, run, at various times by Gay Bell, Amy Gottlieb, Pand John Allec</note>
                     <note type="project-specific" xml:lang="ENG">
-                        <note>This is a project-specific note about the organization.</note>
+                        <note>Should we mention that PTP took all of its publications online in 2015</note>
                         <respons locus="value">
                             <desc>
-                                <orgName ref="URI">Project (e.g.CWRC, REED, Orlando)</orgName>
+                                <orgName ref="URI">LGLC</orgName>
                             </desc>
                         </respons>
                     </note>
                     <listBibl>
                         <head>Sources:</head>
-                        <bibl><title></title><ref source="WorldCat" target="Resource_URI"></ref></bibl>
+                        <bibl>Millward, Liz. Making a Scene: Lesbians and Community across Canada, 1964-84. UBC P, 2016.</bibl>
+                        <bibl>Warner, Tom. Never Going Back: A History of Queer Activism in Canada. U of Toronto P, 2002.</bibl>
                     </listBibl>
                     <note type="resp_statement">
                         <respons locus="value">
                             <desc> 
-                                <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-06"/>
-                                <persName ref="URI-to-user-record">User real name</persName>
+                                <date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2023-02-12"/>
+                                <persName ref="URI-to-user-record">Constance Crompton</persName>
                             </desc>
                         </respons>
-                        <respons locus="value">
-                            <desc> 
-                                <date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2017-11-07"/>
-                                <persName ref="URI-to-user-record">User real name</persName>
-                            </desc>
-                        </respons>
+                     
                     </note>
                 </org>
             </listOrg>
