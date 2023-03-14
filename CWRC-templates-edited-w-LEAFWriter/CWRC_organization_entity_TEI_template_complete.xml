@@ -273,6 +273,165 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:47:24.355Z",
+	"dcterms:modified": "2023-03-14T16:47:24.355Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/92761173/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:47:59.296Z",
+	"dcterms:modified": "2023-03-14T16:47:59.296Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/note/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/12146094332500332490/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -304,7 +463,7 @@
                     <trait type="orgType" cert="high" ref="OntologyURL">
                         <ab>Org Type</ab>
                     </trait>
-                    <note type="general" xml:lang="ENG"> PinkType was a PTP-backed type setting service, run, at various times by Gay Bell, Amy Gottlieb, and John Allec</note>
+                    <note type="general" xml:lang="ENG"> PinkType was a PTP-backed type setting service, run, at various times by <persName key="Bell, Gay" ref="http://viaf.org/viaf/92761173/" cert="medium" role="prt" type="real">Gay Bell</persName>, <persName key="Gottlieb, Amy, 1958-" ref="http://viaf.org/viaf/12146094332500332490/" role="prt">Amy Gottlieb</persName>, and John Allec</note>
                     <note type="project-specific" xml:lang="ENG">
                         <note>Should we mention that PTP took all of its publications online in 2015</note>
                         <respons locus="value">
