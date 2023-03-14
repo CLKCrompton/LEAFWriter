@@ -556,7 +556,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_place_entity_TEI_template_complete.xml?place_annotation_20230314121336066#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/listPlace/place/note[2]/note/placeName"
+			"rdf:value": "TEI/text/body/listPlace/place/note[2]/note/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -811,6 +811,86 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_place_entity_TEI_template_complete.xml?place_annotation_20230314121512123",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:15:12.123Z",
+	"dcterms:modified": "2023-03-14T16:15:12.123Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_place_entity_TEI_template_complete.xml?place_annotation_20230314121512123#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_place_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_place_entity_TEI_template_complete.xml?place_annotation_20230314121512123#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listPlace/place/note[2]/note/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q475689",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
@@ -846,7 +926,7 @@
                     </location>
                     <note type="general" xml:lang="ENG"><placeName key="Ottawa" ref="http://www.wikidata.org/entity/Q1930">Ottawa</placeName> has been the capital of <placeName key="Canada" ref="http://www.wikidata.org/entity/Q16">Canada</placeName> since <date when="1859">1859</date></note>
                     <note type="project-specific" xml:lang="ENG">
-                        <note>Project note: should we nuance the note about being the capital. Parliament ratified Ottawa as Canada's capital in <date when="1859" cert="high">1859</date>, but <placeName key="Quebec City" ref="http://www.wikidata.org/entity/Q2145" cert="high">Quebec City<precision match="@ref" precision="high"/></placeName> served as the interim capital from <date from="1859" to="1865" cert="high">1859 to 1865</date></note>
+                        <note>Project note: should we nuance the note about being the capital. <placeName key="Parliament of Canada" ref="http://www.wikidata.org/entity/Q475689" cert="high">Parliament</placeName> ratified Ottawa as Canada's capital in <date when="1859" cert="high">1859</date>, but <placeName key="Quebec City" ref="http://www.wikidata.org/entity/Q2145" cert="high">Quebec City<precision match="@ref" precision="high"/></placeName> served as the interim capital from <date from="1859" to="1865" cert="high">1859 to 1865</date></note>
                         <respons locus="value">
                             <desc>
                                 <orgName ref="https://app.xtriples.lincsproject.ca/exist/apps/xtriples/index.html">XTriples test project</orgName>
