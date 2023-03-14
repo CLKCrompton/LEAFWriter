@@ -467,7 +467,7 @@
 	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124906621",
 	"type": "oa:Annotation",
 	"dcterms:created": "2023-03-14T16:49:06.621Z",
-	"dcterms:modified": "2023-03-14T16:49:06.621Z",
+	"dcterms:modified": "2023-03-14T16:49:54.635Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/CLKCrompton",
 		"@type": [
@@ -554,7 +554,7 @@
                     </note>
                     <listBibl>
                         <head>Sources:</head>
-                        <bibl><persName key="Millward, Liz, 1966-" ref="http://viaf.org/viaf/63813984/" cert="high">Millward, Liz</persName>. Making a Scene: Lesbians and Community across Canada, 1964-84. UBC P, 2016.</bibl>
+                        <bibl><persName key="Millward, Liz, 1966-" ref="http://viaf.org/viaf/63813984/" cert="high" role="aut">Millward, Liz</persName>. Making a Scene: Lesbians and Community across Canada, 1964-84. UBC P, 2016.</bibl>
                         <bibl>Warner, Tom. Never Going Back: A History of Queer Activism in Canada. U of Toronto P, 2002.</bibl>
                     </listBibl>
                     <note type="resp_statement">
