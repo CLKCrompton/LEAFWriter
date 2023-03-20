@@ -986,6 +986,13 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
 			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
