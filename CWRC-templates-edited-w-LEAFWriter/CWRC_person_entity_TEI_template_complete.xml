@@ -1239,7 +1239,7 @@
 					<nationality cert="high">Canadian</nationality>
 					<occupation cert="high"
 						source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist"
-						>Abolitionist</occupation>
+						>Civil rights advocate against slavery</occupation>
 					<affiliation cert="high"/>
 					<note type="general" xml:lang="ENG">
 						<persName key="Cary, Mary Ann Shadd, 1823-1893"
