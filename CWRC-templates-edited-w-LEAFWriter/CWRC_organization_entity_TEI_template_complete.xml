@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -23,7 +22,563 @@
                 <p>born digital</p>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?place_annotation_20230314124551292",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:45:51.292Z",
+	"dcterms:modified": "2023-03-14T16:45:51.292Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?place_annotation_20230314124551292#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?place_annotation_20230314124551292#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/event/desc/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://www.wikidata.org/entity/Q172",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?title_annotation_20230314124612051",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:46:12.051Z",
+	"dcterms:modified": "2023-03-14T16:46:12.051Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?title_annotation_20230314124612051#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?title_annotation_20230314124612051#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/event/desc/desc/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q3395962",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?date_annotation_20230314124630563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:46:30.563Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?date_annotation_20230314124630563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?date_annotation_20230314124630563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/event/desc/desc/date"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "xsd:date",
+		"rdf:value": "undefined/undefined"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:47:24.355Z",
+	"dcterms:modified": "2023-03-14T16:47:24.355Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124724355#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/note/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/92761173/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:47:59.296Z",
+	"dcterms:modified": "2023-03-14T16:47:59.296Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124759296#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/note/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/12146094332500332490/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124954635",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T16:49:54.635Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124954635#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314124954635#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/listBibl/bibl/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/63813984/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314130352842",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-03-14T17:03:52.842Z",
+	"dcterms:modified": "2023-03-14T17:03:52.842Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/CLKCrompton",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Constance Crompton"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314130352842#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "2.3.1"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_organization_entity_TEI_template_complete.xml?person_annotation_20230314130352842#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/listOrg/org/listBibl/bibl[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/75542811/",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "2.3.1"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
     <text>
         <body>
             <listOrg>
@@ -44,8 +599,8 @@
                             </desc>
                         </note>
                     </orgName>
-                    <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="1971" cert="high" >
-                        <desc><placeName ref="URI">Toronto</placeName><desc>PTP dates from the start of the The Body Politic, although Pink Triangle Press was not incorporated under that name unil 1978</desc>
+                    <event type="establishment" source="https://www.w3.org/TR/NOTE-datetime" from="1971" cert="high">
+                        <desc><placeName ref="URI"><placeName key="Toronto" ref="http://www.wikidata.org/entity/Q172" cert="high">Toronto<precision match="@ref" precision="high"/></placeName></placeName><desc>PTP dates from the start of the <title key="The Body Politic" ref="http://www.wikidata.org/entity/Q3395962" cert="high" level="j">The Body Politic</title>, although Pink Triangle Press was not incorporated under that name unil <date>1978</date></desc>
                         </desc>
                     </event>
                     <trait type="factuality" cert="high" ref="Ontology">
@@ -54,7 +609,7 @@
                     <trait type="orgType" cert="high" ref="OntologyURL">
                         <ab>Org Type</ab>
                     </trait>
-                    <note type="general" xml:lang="ENG"> PinkType was a PTP-backed type setting service, run, at various times by Gay Bell, Amy Gottlieb, Pand John Allec</note>
+                    <note type="general" xml:lang="ENG"> PinkType was a PTP-backed type setting service, run, at various times by <persName key="Bell, Gay" ref="http://viaf.org/viaf/92761173/" cert="medium" role="prt" type="real">Gay Bell</persName>, <persName key="Gottlieb, Amy, 1958-" ref="http://viaf.org/viaf/12146094332500332490/" role="prt">Amy Gottlieb</persName>, and <persName cert="low" role="prt" type="real">John Allec.</persName></note>
                     <note type="project-specific" xml:lang="ENG">
                         <note>Should we mention that PTP took all of its publications online in 2015</note>
                         <respons locus="value">
@@ -65,8 +620,8 @@
                     </note>
                     <listBibl>
                         <head>Sources:</head>
-                        <bibl>Millward, Liz. Making a Scene: Lesbians and Community across Canada, 1964-84. UBC P, 2016.</bibl>
-                        <bibl>Warner, Tom. Never Going Back: A History of Queer Activism in Canada. U of Toronto P, 2002.</bibl>
+                        <bibl><persName key="Millward, Liz, 1966-" ref="http://viaf.org/viaf/63813984/" cert="high" role="aut">Millward, Liz</persName>. Making a Scene: Lesbians and Community across Canada, 1964-84. UBC P, 2016.</bibl>
+                        <bibl><persName key="Warner, Tom, 1945-" ref="http://viaf.org/viaf/75542811/" cert="high" role="aut" type="real">Warner, Tom</persName>. Never Going Back: A History of Queer Activism in Canada. U of Toronto P, 2002.</bibl>
                     </listBibl>
                     <note type="resp_statement">
                         <respons locus="value">

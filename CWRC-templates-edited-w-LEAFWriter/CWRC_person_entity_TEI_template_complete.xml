@@ -22,20 +22,10 @@
 				<p>born digital</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-				xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-				xmlns:as="http://www.w3.org/ns/activitystreams#"
-				xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#"
-				xmlns:dc="http://purl.org/dc/elements/1.1/"
-				xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/"
-				xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#"
-				xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-				xmlns:fabio="https://purl.org/spar/fabio#"
-				xmlns:bf="http://www.openlinksw.com/schemas/bif#"
-				xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#"
-				xmlns:org="http://www.w3.org/ns/org#">
-				<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+		
+	<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -111,8 +101,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -188,8 +180,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -265,8 +259,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -296,10 +292,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307090817470",
+	"id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307093223685",
 	"type": "oa:Annotation",
-	"dcterms:created": "2023-03-07T14:08:17.470Z",
-	"dcterms:modified": "2023-03-07T14:32:23.685Z",
+	"dcterms:created": "2023-03-07T14:32:23.685Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/CLKCrompton",
 		"@type": [
@@ -310,7 +305,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307090817470#Target",
+		"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307093223685#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml",
@@ -318,13 +313,13 @@
 			"dc:format": "text/xml"
 		},
 		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
+			"@id": "https://31283590-review-99-persnam-9n3gx4.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "2.3.1"
+			"schema:softwareVersion": "2.6.1"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307090817470#Selector",
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?person_annotation_20230307093223685#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/listPerson/person/listBibl/bibl/persName[2]"
 		}
@@ -335,16 +330,18 @@
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
+		"@id": "https://31283590-review-99-persnam-9n3gx4.leaf-vre.org",
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "2.3.1"
+		"schema:softwareVersion": "2.6.1"
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -419,8 +416,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -494,8 +493,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -570,8 +571,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -647,8 +650,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -724,8 +729,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -800,8 +807,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -878,8 +887,10 @@
 	},
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -954,6 +965,48 @@
 			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
 			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
 			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
+		},
+		{
+			"@id": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122#Cites",
+			"@type": "cito:Citation",
+			"cito:hasCitingEntity": "https://raw.githubusercontent.com/CLKCrompton/LEAFWriter-Templates-XTriples/main/CWRC-templates-edited-w-LEAFWriter/CWRC_person_entity_TEI_template_complete.xml?citation_annotation_20230307094242122",
+			"cito:hasCitedEntity": "http://www.wikidata.org/entity/Q130334",
+			"cito:hasCitationEvent": "cito:cites"
 		}
 	],
 	"as:generator": {
@@ -964,8 +1017,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1041,8 +1096,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1118,8 +1175,10 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description> <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-					<![CDATA[{
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
 	"@context": {
 		"dcterms:created": {
 			"@type": "xsd:dateTime",
@@ -1195,9 +1254,8 @@
 		"schema:softwareVersion": "2.3.1"
 	}
 }]]>
-				</rdf:Description>
-			</rdf:RDF></xenoData>
-	</teiHeader>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<listPerson>
@@ -1212,86 +1270,60 @@
 						<name type="middlename">Shadd</name>
 						<name type="surname">Cary</name>
 					</persName>
-					<birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime"
-							when="1823-10-09"><date>October 9, 1823</date></date>,
+					<birth><date cert="high" source="https://www.w3.org/TR/NOTE-datetime" when="1823-10-09"><date>October 9, 1823</date></date>,
 							<placeName>Wilmington, Delaware</placeName>
 						<note/>
 					</birth>
 					<death>
 						<date cert="high" when="1893-06-05">
 							<date when="1893-06-05" cert="high">June 5, 1893</date></date>,
-								<placeName><placeName key="Washington, D.C."
-								ref="http://www.wikidata.org/entity/Q61">Washington
+								<placeName><placeName key="Washington, D.C." ref="http://www.wikidata.org/entity/Q61">Washington
 							DC</placeName></placeName>
 						<note/>
 					</death>
 					<floruit>
 						<date from="1848" to="1893"/>
 						<note/>
-					</floruit>
-					<sex source="https://sparql.cwrc.ca/ontologies/cwrc.html#cisWoman" value="woman"
-						cert="high"/>
-					<!-- CC: I am a bit confused by CWRC's use of @source here, but I am going ot go with it-->
+					</floruit><!-- CC: I am a bit confused by CWRC's use of @source here, but I am going ot go with it-->
 					<trait type="factuality" cert="high">
 						<ab>real</ab>
 					</trait>
 					<nationality cert="high">American</nationality>
 					<nationality cert="high">Canadian</nationality>
-					<occupation cert="high"
-						source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist"
-						>Civil rights advocate against slavery</occupation>
+					<occupation cert="high" source="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist">Abolitionist</occupation>
 					<affiliation cert="high"/>
 					<note type="general" xml:lang="ENG">
-						<persName key="Cary, Mary Ann Shadd, 1823-1893"
-							ref="http://viaf.org/viaf/59931033/">Shadd</persName> was the first
-						Black female newspaper publisher in Canada. She founded and edited <title
-							key="The Provincial Freeman"
-							ref="http://www.wikidata.org/entity/Q104880501">The Provincial
+						<persName key="Cary, Mary Ann Shadd, 1823-1893" ref="http://viaf.org/viaf/59931033/">Shadd</persName> was the first
+						Black female newspaper publisher in Canada. She founded and edited <title key="The Provincial Freeman" ref="http://www.wikidata.org/entity/Q104880501">The Provincial
 							Freeman</title> and established a racially integrated school for Black
-						refugees in <placeName key="Windsor"
-							ref="http://www.wikidata.org/entity/Q182625">Windsor</placeName>, Canada
+						refugees in <placeName key="Windsor" ref="http://www.wikidata.org/entity/Q182625">Windsor</placeName>, Canada
 						West.  In 1994, she was designated a Person of National Historic
-						Significance in Canada <note type="citation"><bibl><ref
-									target="http://www.wikidata.org/entity/Q130334"/>Yarhi, Eli, and
+						Significance in Canada <note type="citation"><bibl><ref target="http://www.wikidata.org/entity/Q130334"/>Yarhi, Eli, and
 								Clayton Ma. “Mary Ann Shadd.” The Canadian Encyclopedia, 2020,
 								https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd.
 							</bibl></note></note>
 					<note type="project-specific" xml:lang="ENG"> This is a project-specific note
 						about the person. <respons locus="value">
 							<desc>
-								<orgName
-									ref="https://app.xtriples.lincsproject.ca/exist/apps/xtriples/index.html"
-									>XTriples test project</orgName>
+								<orgName ref="https://app.xtriples.lincsproject.ca/exist/apps/xtriples/index.html">XTriples test project</orgName>
 							</desc>
 						</respons>
 					</note>
 					<listBibl>
 						<head>Sources:</head>
-						<bibl><title/><ref source="WorldCat"
-								target="https://www.worldcat.org/title/949872497"/><persName
-								key="Cary, Mary Ann Shadd, 1823-1893"
-								ref="http://viaf.org/viaf/59931033/" cert="high" role="aut"
-								type="real">Carey, Mary Ann Shadd</persName>. <title
-								key="A Plea for Emigration; or, Notes of Canada West"
-								ref="https://www.worldcat.org/title/949872497" level="m">A Plea for
-								Emigration; or, Notes of Canada West</title>. Edited by <persName
-								key="Antwi, Phanuel"
-								ref="http://viaf.org/viaf/595146936821313782712/" cert="high"
-								type="real" role="edt">Phanuel Antwi</persName>, Broadview P, <date
-								when="2016">2016</date>. </bibl>
+						<bibl><title/><ref source="WorldCat" target="https://www.worldcat.org/title/949872497"/><persName key="Cary, Mary Ann Shadd, 1823-1893" ref="http://viaf.org/viaf/59931033/" cert="high" role="aut" type="real">Carey, Mary Ann Shadd</persName>. <title key="A Plea for Emigration; or, Notes of Canada West" ref="https://www.worldcat.org/title/949872497" level="m">A Plea for
+								Emigration; or, Notes of Canada West</title>. Edited by <persName key="Antwi, Phanuel" ref="http://viaf.org/viaf/595146936821313782712/" cert="high" type="real" role="edt">Phanuel Antwi</persName>, Broadview P, <date when="2016">2016</date>. </bibl>
 					</listBibl>
 					<respons locus="value">
 						<desc>
-							<date type="created" source="https://www.w3.org/TR/NOTE-datetime"
-								when="2023-02-11"/>
+							<date type="created" source="https://www.w3.org/TR/NOTE-datetime" when="2023-02-11"/>
 							<persName ref="https://orcid.org/0000-0001-6611-3663">Constance
 								Crompton</persName>
 						</desc>
 					</respons>
 					<respons locus="value">
 						<desc>
-							<date type="modified" source="https://www.w3.org/TR/NOTE-datetime"
-								when="2023-02-11"/>
+							<date type="modified" source="https://www.w3.org/TR/NOTE-datetime" when="2023-02-11"/>
 							<persName ref="https://orcid.org/0000-0001-6611-3663">Constance
 								Crompton</persName>
 						</desc>
