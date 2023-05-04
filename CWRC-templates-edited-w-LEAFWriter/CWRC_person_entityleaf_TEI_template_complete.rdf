@@ -1,0 +1,67 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:temp_lincs_temp="http://temp.lincsproject.ca/" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:frbroo="D" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="en">
+    <crm:E39_Actor rdf:about="http://viaf.org/viaf/59931033">
+        <rdfs:label>Carey, Mary Ann Shadd</rdfs:label>
+        <crm:P98i_was_born>
+            <crm:E67_Birth rdf:about="uri:Name_of_Person">
+                <rdfs:label>Birth of </rdfs:label>
+                <crm:P4_has_time-span>
+                    <crm:E52_Time-Span rdf:about="uri:Time_Span">
+                        <rdfs:label>Datetime of birth of </rdfs:label>
+                        <crm:P82_at_some_time_within>"1823-10-09"^^xsd:dateTime</crm:P82_at_some_time_within>
+                        <crm:P82b_end_of_the_end>"1823-10-09"^^xsd:dateTime</crm:P82b_end_of_the_end>
+                        <crm:P82a_begin_of_the_begin>"1823-10-09"^^xsd:dateTime</crm:P82a_begin_of_the_begin>
+                    </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+            </crm:E67_Birth>
+        </crm:P98i_was_born>
+        <crm:P100i_died_in>
+            <crm:E69_Death rdf:about="uri:Name_of_Person">
+                <rdfs:label>Death of </rdfs:label>
+                <crm:P4_has_time-span>
+                    <crm:E52_Time-Span rdf:about="uri:Time_Span">
+                        <rdfs:label>Datetime of death of </rdfs:label>
+                        <crm:P82_at_some_time_within>"1893-06-05"^^xsd:dateTime</crm:P82_at_some_time_within>
+                        <crm:P82b_end_of_the_end>"1893-06-05"^^xsd:dateTime</crm:P82b_end_of_the_end>
+                        <crm:P82a_begin_of_the_begin>"1893-06-05"^^xsd:dateTime</crm:P82a_begin_of_the_begin>
+                    </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+            </crm:E69_Death>
+        </crm:P100i_died_in>
+        <crm:P74_has_current_or_former_residence>
+            <crm:E53_Place rdf:about="uri:Name_of_Place">
+                <crm:P1_is_identified_by>
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                        <crm:P190_has_symbolic_content xml:lang="en">American : nationality of the person e.g. the place where they live
+                        </crm:P190_has_symbolic_content>
+                        <crm:P2_has_type><!--ERROR : No URI was found for nationality : "American". Please check the content of the @value or rely on our documentation to input correct format.--></crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P1_is_identified_by>
+            </crm:E53_Place>
+        </crm:P74_has_current_or_former_residence>
+        <crm:P74_has_current_or_former_residence>
+            <crm:E53_Place rdf:about="uri:Name_of_Place">
+                <crm:P1_is_identified_by>
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                        <crm:P190_has_symbolic_content xml:lang="en">Canadian : nationality of the person e.g. the place where they live
+                        </crm:P190_has_symbolic_content>
+                        <crm:P2_has_type><!--ERROR : No URI was found for nationality : "Canadian". Please check the content of the @value or rely on our documentation to input correct format.--></crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P1_is_identified_by>
+            </crm:E53_Place>
+        </crm:P74_has_current_or_former_residence>
+        <crm:P14i_performed>
+            <frbroo:F51_Pursuit rdf:about="uri:Pursuit_of_Name_of_Person">
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="https://sparql.cwrc.ca/ontologies/cwrc.html#abolitionist"/>
+                </crm:P2_has_type>
+            </frbroo:F51_Pursuit>
+        </crm:P14i_performed>
+        <crm:E33_Linguistic_Object rdf:about="uri:Name_of_Person">
+            <rdfs:label>Name of label : Note about the person's variant name</rdfs:label>
+            <crm:P190_has_symbolic_content xml:lang="en">Shadd was the first Black female newspaper publisher in Canada. She founded and edited The Provincial Freeman and established a racially integrated school for Black refugees in Windsor, Canada West.  In 1994, she was designated a Person of National Historic Significance in Canada Yarhi, Eli, and Clayton Ma. “Mary Ann Shadd.” The Canadian Encyclopedia, 2020, https://www.thecanadianencyclopedia.ca/en/article/mary-ann-shadd.</crm:P190_has_symbolic_content>
+            <crm:P2_has_type>
+                <crm:E55_Type rdf:about="http://sparql.cwrc.ca/ontologies/cwrc#Note"/>
+            </crm:P2_has_type>
+        </crm:E33_Linguistic_Object>
+    </crm:E39_Actor>
+</rdf:RDF>

@@ -1,0 +1,178 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:temp_lincs_temp="http://temp.lincsproject.ca/" xmlns:frbroo="D" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="en">
+    <crm:E53_Place rdf:about="reed:e6f2c2a0-b651-4978-989a-8f4039e8b705">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Street"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Aldersgate Street</rdfs:label>
+            <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                <rdfs:label>Name of Aldersgate Street</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">Aldersgate Street</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="uri:Place_Name_Type"/>
+                </crm:P2_has_type>
+                <crm:P106_is_composed_of xml:lang="en">
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Fullname_of_place?">
+                        <rdfs:label>Fullname of Aldersgate Street</rdfs:label>
+                        <crm:P190_has_symbolic_content xml:lang="en">Aldersgate Street</crm:P190_has_symbolic_content>
+                        <crm:P2_has_type>
+                            <crm:E55_Type rdf:about="uri:Full_Place_Name_Type?"/>
+                        </crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P106_is_composed_of>
+            </crm:E33_E41_Linguistic_Appellation>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Aldersgate Street</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.51871824 -0.097111351</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:f01a6ed9-1532-400c-9235-cb83182f8b6b">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Church"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>All Hallows Barking</rdfs:label>
+            <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                <rdfs:label>Name of Church of All Hallows Barking</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">Church of All Hallows Barking</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="uri:Place_Name_Type"/>
+                </crm:P2_has_type>
+                <crm:P106_is_composed_of xml:lang="en">
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Fullname_of_place?">
+                        <rdfs:label>Fullname of Church of All Hallows Barking</rdfs:label>
+                        <crm:P190_has_symbolic_content xml:lang="en">Church of All Hallows Barking</crm:P190_has_symbolic_content>
+                        <crm:P2_has_type>
+                            <crm:E55_Type rdf:about="uri:Full_Place_Name_Type?"/>
+                        </crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P106_is_composed_of>
+            </crm:E33_E41_Linguistic_Appellation>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Church of All Hallows Barking</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.50937332 -0.079357305</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:60d609fd-a695-4ee1-a987-ad3f73082887">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Hall"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Bakers' Hall</rdfs:label>
+            <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                <rdfs:label>Name of Bakers' Hall</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">Bakers' Hall</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="uri:Place_Name_Type"/>
+                </crm:P2_has_type>
+                <crm:P106_is_composed_of xml:lang="en">
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Fullname_of_place?">
+                        <rdfs:label>Fullname of Bakers' Hall</rdfs:label>
+                        <crm:P190_has_symbolic_content xml:lang="en">Bakers' Hall</crm:P190_has_symbolic_content>
+                        <crm:P2_has_type>
+                            <crm:E55_Type rdf:about="uri:Full_Place_Name_Type?"/>
+                        </crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P106_is_composed_of>
+            </crm:E33_E41_Linguistic_Appellation>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Bakers' Hall</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.50970094 -0.081616744</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:9bed4724-73d6-4021-ae3e-bf9a2a618012">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Arena"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Bear Garden</rdfs:label>
+            <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Name_of_Place">
+                <rdfs:label>Name of Preferred Name of Place as aligned with your research</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">Preferred Name of Place as aligned with your research</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="uri:Place_Name_Type"/>
+                </crm:P2_has_type>
+                <crm:P106_is_composed_of xml:lang="en">
+                    <crm:E33_E41_Linguistic_Appellation rdf:about="uri:Fullname_of_place?">
+                        <rdfs:label>Fullname of Preferred Name of Place as aligned with your research</rdfs:label>
+                        <crm:P190_has_symbolic_content xml:lang="en">Preferred Name of Place as aligned with your research</crm:P190_has_symbolic_content>
+                        <crm:P2_has_type>
+                            <crm:E55_Type rdf:about="uri:Full_Place_Name_Type?"/>
+                        </crm:P2_has_type>
+                    </crm:E33_E41_Linguistic_Appellation>
+                </crm:P106_is_composed_of>
+            </crm:E33_E41_Linguistic_Appellation>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Preferred Name of Place as aligned with your research</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.50745202 -0.096502474</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:d18b9e1e-33a2-404a-a9ee-6e276e2d1097">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Playhouse"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Blackfriars Playhouse</rdfs:label>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Blackfriars Playhouse</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.512114 -0.103713</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:d0e69184-2785-4d47-87c5-4de4065b77ff">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Street"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Chancery Lane</rdfs:label>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Chancery Lane</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.51599 -0.111922</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+    <crm:E53_Place rdf:about="reed:cae29296-ecd6-4e89-a10d-a4750fb2486b">
+        <crm:P2_has_type>
+            <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/InnOfCourt"/>
+        </crm:P2_has_type>
+        <crm:P1_is_identified_by>
+            <rdfs:label>Clement’s Inn</rdfs:label>
+            <crm:E41_Appellation rdf:about="uri:Address_of_place">
+                <rdfs:label> Address of Clement’s Inn</rdfs:label>
+                <crm:P190_has_symbolic_content xml:lang="en">GBR</crm:P190_has_symbolic_content>
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about="http://id.lincsproject.ca/eml/Address"/>
+                </crm:P2_has_type>
+            </crm:E41_Appellation>
+        </crm:P1_is_identified_by>
+        <crm:P168_place_is_defined_by>51.51390408 -0.115573772</crm:P168_place_is_defined_by>
+    </crm:E53_Place>
+</rdf:RDF>

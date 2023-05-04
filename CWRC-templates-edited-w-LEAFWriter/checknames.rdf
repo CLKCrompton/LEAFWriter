@@ -1,0 +1,18 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:temp_lincs_temp="http://temp.lincsproject.ca/" xmlns:frbroo="D" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="en">
+    <crm:E39_Actor rdf:about="">
+        <rdfs:label>Standard name</rdfs:label>
+        <crm:P100i_died_in>
+            <crm:E69_Death rdf:about="uri:Name_of_Person">
+                <rdfs:label>Death of Standard name</rdfs:label>
+                <crm:P4_has_time-span>
+                    <crm:E52_Time-Span rdf:about="uri:Time_Span">
+                        <rdfs:label>Datetime of death of Standard name</rdfs:label>
+                        <crm:P82_at_some_time_within>""^^xsd:dateTime</crm:P82_at_some_time_within>
+                        <crm:P82b_end_of_the_end>""^^xsd:dateTime</crm:P82b_end_of_the_end>
+                        <crm:P82a_begin_of_the_begin>""^^xsd:dateTime</crm:P82a_begin_of_the_begin>
+                    </crm:E52_Time-Span>
+                </crm:P4_has_time-span>
+            </crm:E69_Death>
+        </crm:P100i_died_in>
+    </crm:E39_Actor>
+</rdf:RDF>

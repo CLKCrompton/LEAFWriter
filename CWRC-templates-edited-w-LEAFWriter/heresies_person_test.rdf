@@ -1,0 +1,12 @@
+<rdf:RDF xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:map="http://www.w3.org/2005/xpath-functions/map" xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/" xmlns:temp_lincs_temp="http://temp.lincsproject.ca/" xmlns:frbroo="D" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:lang="en">
+    <crm:E39_Actor rdf:about="uri:Name_of_Person">
+        <rdfs:label/>
+        <crm:P14i_performed>
+            <frbroo:F51_Pursuit rdf:about="uri:Pursuit_of_Name_of_Person">
+                <crm:P2_has_type>
+                    <crm:E55_Type rdf:about=""/>
+                </crm:P2_has_type>
+            </frbroo:F51_Pursuit>
+        </crm:P14i_performed>
+    </crm:E39_Actor>
+</rdf:RDF>
